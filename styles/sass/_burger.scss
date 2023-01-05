@@ -1,0 +1,60 @@
+section {
+  .container {
+    gap: 50px;
+    font-size: 20px;
+    .image {
+      position: relative;
+      .products {
+        position: relative;
+        img {
+          margin-top: -50px;
+        }
+      }
+      .img1 {
+        margin-top: -60px;
+        z-index: 999;
+      }
+      .img2 {
+        margin-top: -20px;
+        z-index: -999;
+      }
+    }
+    .ing {
+        background-image: linear-gradient(
+            125deg,
+            hsl(168deg 100% 20%) 0%,
+            hsl(145deg 52% 28%) 3%,
+            hsl(102deg 44% 30%) 12%,
+            hsl(71deg 76% 25%) 32%,
+            hsl(51deg 100% 25%) 51%,
+            hsl(37deg 100% 32%) 65%,
+            hsl(23deg 83% 42%) 76%,
+            hsl(2deg 74% 55%) 85%,
+            hsl(340deg 94% 54%) 93%,
+            hsl(324deg 100% 50%) 100%
+        );
+        border-radius: 10px;
+        padding: 1rem;
+      gap: 30px;
+      button{
+            background-image: linear-gradient(to right, #002357, #004375, #005f6d, #007645, #5d8600);
+            border: none;
+            padding: 6px 12px;
+            color: white;
+            border-radius: 10px;
+            box-shadow: -4px 0px 70px 6px rgba(0,0,0,0.82);
+            -webkit-box-shadow: -4px 0px 70px 6px rgba(0,0,0,0.82);
+            -moz-box-shadow: -4px 0px 70px 6px rgba(0,0,0,0.82);
+        }
+      ul {
+        gap: 10px;
+      }
+    }
+
+    .div{
+        button{
+            padding: 6px 12px;
+        }
+    }
+  }
+}
